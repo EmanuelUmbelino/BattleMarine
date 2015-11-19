@@ -22,6 +22,19 @@ public class ShipSelectController : MonoBehaviour {
 			TileLightsManager.shipSelect = null;
 		}
 	}
+
+	void Update()
+	{
+		if(select.Equals(1) && Input.GetAxis("Horizontal") > 0)
+		{
+			father.transform.rotation = new Quaternion(0,0,-90,90);
+		}
+		if(select.Equals(1) && Input.GetAxis("Horizontal") < 0)
+		{
+			father.transform.rotation = new Quaternion(0,0,0,0);
+		}
+	}
+
 	public void SetPosition(Vector3 position)
 	{
 		if(select.Equals(1))
