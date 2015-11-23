@@ -26,7 +26,7 @@ A battleShip Naval game create using unity engine 4.6 || is unliked that version
 
 - When a player destroys the boats of the opponent, win and finish the match .
 
-#Português:
+#Portugues:
 Um jogo de batalha naval sendo desenvolvido usando unity engine 4.6 || é improvavel que funcione em outra versão.
 
 #TODO:
